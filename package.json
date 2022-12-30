@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
+  },
+  "name": "pf-alejo-talice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejotalice72/pf-alejo-talice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejotalice72/pf-alejo-talice/issues"
+  },
+  "homepage": "https://github.com/alejotalice72/pf-alejo-talice#readme",
+  "description": ""
+}

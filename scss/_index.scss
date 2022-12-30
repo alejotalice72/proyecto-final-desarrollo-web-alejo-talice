@@ -1,0 +1,37 @@
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../img/pexels-suzy-hazelwood-1560093.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    .hero__flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    picture {
+        @include from__top(2s);
+    }
+}
+.us {
+    width: 100%;
+    background-color: $secondary-color-j;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    img {
+        border-radius: 0px;
+        height: 25rem;
+        @include from__left(2s);
+    }
+    h3 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        @include from__bottom(2s);
+    }
+    i {
+        font-size: 1rem;
+    }
+}

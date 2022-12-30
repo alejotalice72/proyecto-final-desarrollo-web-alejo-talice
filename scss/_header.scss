@@ -1,0 +1,10 @@
+.navbar__img {
+    height: 4rem;
+    width: 8rem;
+    @include from__right(1.5s);
+}
+.nav-link:hover {
+    color: #fff;
+    border-radius: 10px;
+    background-color: #C5BC8E;
+}

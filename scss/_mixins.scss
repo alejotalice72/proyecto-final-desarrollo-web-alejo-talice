@@ -1,0 +1,64 @@
+/* animations */
+@mixin from__right($time) {
+    animation: from-right $time ease;
+}
+@mixin from__left($time) {
+    animation: from-left $time ease;
+}
+@mixin from__bottom($time) {
+    animation: from-bottom $time ease;
+}
+@mixin apparition($time) {
+    animation: apparition $time ease;
+}
+@mixin from__top($time) {
+    animation: from-top $time ease;
+}
+@keyframes from-right {
+    0% {
+        opacity: 0;
+        transform: translateX(80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes from-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes from-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes from-top {
+    0% {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes apparition {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,34 @@
+footer {
+    background-color: #36393B;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .footer__icons__link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 2rem;
+        margin-top: 1rem;
+        &:hover {
+            color: #C5BC8E;
+        }
+    }
+    .footer__text__title {
+        font-family: serif;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    .footer__text__title__j {
+        font-size: 2.5rem;
+        color: #C5BC8E;
+    }
+}
+.bubble {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    .bubble__img {
+        @include from__bottom(2s);
+        height: 3rem;
+        width: 3rem;
+    }
+}
