@@ -1,0 +1,40 @@
+.services {
+    padding-top: 9.2rem;
+    padding-bottom: 8rem;
+    background-color: $secondary-color-j;
+    h4 {
+        font-size: 1rem;
+        font-weight: bold;
+        @include from__bottom (1s);
+    }
+    img {
+        @include from__bottom (1.5s);
+        width: 8rem;
+        height: 8rem;
+        background-color:rgb(183, 186, 105);
+        border-radius: 100px;
+        padding: 1rem;
+        overflow: visible;
+    }
+}
+.products__parallax {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url(../img/pexels-pixabay-159519.jpg);
+    height: 40vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.brands {
+    background-color: $secondary-color-j;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    .carousel__img {
+        height: 20rem;
+    }
+    @media (min-width:768px) {
+        .carousel__img {
+            height: 25rem;
+        }
+    }
+}

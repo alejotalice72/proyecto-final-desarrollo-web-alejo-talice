@@ -14,6 +14,7 @@
 @mixin from__top($time) {
     animation: from-top $time ease;
 }
+// keyframes
 @keyframes from-right {
     0% {
         opacity: 0;

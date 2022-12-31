@@ -11807,4 +11807,65 @@ footer .footer__text__title__j {
   background-color: #ccc7b1;
 }
 
+.services {
+  padding-top: 9.2rem;
+  padding-bottom: 8rem;
+  background-color: #E2E2D2;
+}
+.services h4, .services .h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  animation: from-bottom 1s ease;
+}
+.services img {
+  animation: from-bottom 1.5s ease;
+  width: 8rem;
+  height: 8rem;
+  background-color: rgb(183, 186, 105);
+  border-radius: 100px;
+  padding: 1rem;
+  overflow: visible;
+}
+
+.products__parallax {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/pexels-pixabay-159519.jpg);
+  height: 40vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brands {
+  background-color: #E2E2D2;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.brands .carousel__img {
+  height: 20rem;
+}
+@media (min-width: 768px) {
+  .brands .carousel__img {
+    height: 25rem;
+  }
+}
+
+.contact {
+  margin-top: 4rem;
+  background-color: #F4F0C6;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.bg__form {
+  animation: from-bottom 1.5s ease;
+  background-color: #e9e18e;
+  padding: 4rem;
+  border-radius: 60px 5px 60px 5px;
+  box-shadow: 1px -1px 81px -18px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -1px 81px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 81px -18px rgba(0, 0, 0, 0.75);
+}
+
 /*# sourceMappingURL=custom.css.map */
