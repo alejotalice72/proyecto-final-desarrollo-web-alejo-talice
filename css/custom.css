@@ -11821,10 +11821,14 @@ footer .footer__text__title__j {
   animation: from-bottom 1.5s ease;
   width: 8rem;
   height: 8rem;
-  background-color: rgb(183, 186, 105);
+  background-color: rgb(227, 223, 179);
   border-radius: 100px;
   padding: 1rem;
   overflow: visible;
+}
+.services img:hover {
+  transform: scale(1.5);
+  transition: all 1s;
 }
 
 .products__parallax {
@@ -11866,6 +11870,15 @@ footer .footer__text__title__j {
   box-shadow: 1px -1px 81px -18px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -1px 81px -18px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px -1px 81px -18px rgba(0, 0, 0, 0.75);
+}
+
+.faq {
+  background-color: rgb(247, 248, 246);
+  padding-top: 30vh;
+  height: 100vh;
+}
+.faq .accordion__btn {
+  background-color: rgb(227, 223, 179);
 }
 
 /*# sourceMappingURL=custom.css.map */

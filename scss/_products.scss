@@ -11,10 +11,14 @@
         @include from__bottom (1.5s);
         width: 8rem;
         height: 8rem;
-        background-color:rgb(183, 186, 105);
+        background-color:rgb(227, 223, 179);
         border-radius: 100px;
         padding: 1rem;
         overflow: visible;
+        &:hover {
+            transform: scale(1.5);
+            transition: all 1s;
+        }
     }
 }
 .products__parallax {

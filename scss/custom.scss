@@ -1,3 +1,4 @@
+// npm install bootstrap --> para correr: npm run compile
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "globals";
 @import "variables";
@@ -9,3 +10,4 @@
 @import "libraries";
 @import "products";
 @import "contact";
+@import "faq";

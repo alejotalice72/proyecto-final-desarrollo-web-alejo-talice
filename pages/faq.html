@@ -45,10 +45,10 @@
                             <a class="nav-link" href="./products.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="./contact.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./faq.html">FAQ</a>
+                            <a class="nav-link" href="#">FAQ</a>
                         </li>
                     </ul>
                 </div>
@@ -57,48 +57,52 @@
     </header>
     <!-- main -->
     <main>
-        <section class="contact d-flex justify-content-center align-items-center">
-            <div class="container">
-                <div class="bg__form">
-                    <form action="https://formsubmit.co/alejotalice2003@gmail.com" method="POST" name="libreria">
-                        <div class="row">
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Direccion de email:</label>
-                                <input type="email" class="form-control" id="email" name="email"
-                                    placeholder="nombre@ejemplo.com" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Nombre:</label>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="nombre"
-                                    required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="surname" class="form-label">Apellido:</label>
-                                <input type="text" class="form-control" id="surname" name="surname"
-                                    placeholder="apellido" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="opinion" class="form-label">Tu opinión:</label>
-                                <textarea class="form-control" id="opinion" rows="3" name="opinion" required></textarea>
-                            </div>
-                            <div class="mb-3 text-center">
-                                <h3>Califica nuestra atencion:</h3>
-                                <label for="raiting1">1</label>
-                                <input type="radio" id="raiting1" name="raiting">
-                                <label for="raiting2">2</label>
-                                <input type="radio" id="raiting2" name="raiting">
-                                <label for="raiting3">3</label>
-                                <input type="radio" id="raiting3" name="raiting">
-                                <label for="raiting4">4</label>
-                                <input type="radio" id="raiting4" name="raiting">
-                                <label for="raiting5">5</label>
-                                <input type="radio" id="raiting5" name="raiting">
-                            </div>
-                            <div class="mb-3 text-center">
-                                <button type="submit" class="btn btn-warning mb-3">Enviar</button>
-                            </div>
+        <section class="faq">
+            <div class="container text-center">
+                <h2 class="mb-4 display-5">Preguntas Frecuentes:</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header text-center" id="flush-headingOne">
+                            <button class="accordion-button collapsed accordion__btn" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                ¿Hacen Impresiones?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Se realizan impresiones a color y blanco y negro tambien
+                                contamos con un abono para hacer hasta 500 impresiones con descuento</div>
                         </div>
-                    </form>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed accordion__btn" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                ¿Abren Feriados?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Solo la librea de Jorge A Calle se encuentra abierta feriados y
+                                domingos</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed accordion__btn" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                ¿A donde envio mis impresiones?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Podes enviar tus impresiones por email a libreajfoschi@gmail.com
+                                o por whatsapp</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

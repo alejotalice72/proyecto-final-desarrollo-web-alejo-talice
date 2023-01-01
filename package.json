@@ -5,7 +5,6 @@
   "name": "pf-alejo-talice",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "compile": "sass --watch scss:css"
   },
