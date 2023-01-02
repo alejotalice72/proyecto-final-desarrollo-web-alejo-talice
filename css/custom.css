@@ -11861,6 +11861,9 @@ footer .footer__text__title__j {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+.contact .contact__stars {
+  justify-content: space-around;
+}
 
 .bg__form {
   animation: from-bottom 1.5s ease;
@@ -11874,8 +11877,8 @@ footer .footer__text__title__j {
 
 .faq {
   background-color: rgb(247, 248, 246);
-  padding-top: 30vh;
-  height: 100vh;
+  padding-top: 9rem;
+  padding-bottom: 8rem;
 }
 .faq .accordion__btn {
   background-color: rgb(227, 223, 179);

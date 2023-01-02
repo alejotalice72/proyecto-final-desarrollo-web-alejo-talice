@@ -4,6 +4,9 @@
     width: 100%;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    .contact__stars {
+        justify-content: space-around;
+    }
 }
 .bg__form {
     @include from__bottom (1.5s);
